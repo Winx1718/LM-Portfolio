@@ -59,6 +59,10 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.hero a:hover {
+  color: var(--secondary-color) !important;
+  border: 1px solid var(--secondary-color) !important;
+}
 .btn-branding-outline {
   background: var(--secondary-color);
   color: var(--primary-color);
@@ -67,6 +71,10 @@ p {
   border-radius: 4px;
   line-height: 27px;
   padding: 15px 30px;
+}
+a:hover {
+  background: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
 }
 .project-description {
   padding: 60px 30px;
