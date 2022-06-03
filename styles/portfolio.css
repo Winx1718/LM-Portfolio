@@ -51,6 +51,12 @@ p {
   font-size: 24px;
   line-height: 1.5;
 }
+.featured-project {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .btn-branding {
   background: var(--light-color);
   border-radius: 4px;
