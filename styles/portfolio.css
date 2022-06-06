@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgb(164, 93, 93);
+  --primary-color: #a45d5d;
   --secondary-color: #efefef;
   --dark-color: rgb(74, 64, 58);
   --light-color: rgb(255, 192, 105);
@@ -68,6 +68,7 @@ p {
 .hero a:hover {
   color: var(--secondary-color) !important;
   border: 1px solid var(--secondary-color) !important;
+  transition: all 100ms ease-in-out;
 }
 .btn-branding-outline {
   background: var(--secondary-color);
@@ -81,6 +82,7 @@ p {
 a:hover {
   background: var(--primary-color) !important;
   color: var(--secondary-color) !important;
+  transition: all 100ms ease-in-out;
 }
 @media (max-width: 960px) {
   h1 {
@@ -143,4 +145,30 @@ a:hover {
 .contact-info .btn-branding-outline {
   font-size: 16px;
   padding: 10px 20px;
+}
+.nav-container {
+  background: var(--dark-color);
+  color: var(--secondary-color);
+}
+nav ul {
+  padding: 5px 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav .active,
+nav a:hover {
+  color: #b29e93 !important;
+}
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+nav a:hover {
+  background: var(--dark-color) !important;
+  transition: all 100ms ease-in-out;
 }
