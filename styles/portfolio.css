@@ -140,3 +140,7 @@ a:hover {
   justify-content: space-evenly;
   text-align: center;
 }
+.contact-info .btn-branding-outline {
+  font-size: 16px;
+  padding: 10px 20px;
+}
