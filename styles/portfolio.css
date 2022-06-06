@@ -135,3 +135,8 @@ a:hover {
   opacity: 70%;
   font-size: 14px;
 }
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
