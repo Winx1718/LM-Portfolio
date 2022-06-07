@@ -40,7 +40,7 @@ p {
 .hero {
   background: rgb(164, 93, 93, 50);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   color: var(--secondary-color);
@@ -94,9 +94,6 @@ a:hover {
   }
   h2 {
     font-size: 44px;
-  }
-  .hero {
-    padding: 80px 20px;
   }
   .portfolio {
     text-align: center;
