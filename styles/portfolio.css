@@ -3,6 +3,7 @@
   --secondary-color: #efefef;
   --dark-color: rgb(74, 64, 58);
   --light-color: rgb(255, 192, 105);
+  --img-frame-color: #b29e93;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -60,6 +61,10 @@ p {
   align-items: center;
   flex-wrap: wrap;
 }
+.featured-project img {
+  padding: 20px;
+  background: var(--img-frame-color);
+}
 .btn-branding {
   background: var(--light-color);
   border-radius: 4px;
@@ -102,7 +107,7 @@ a:hover {
 }
 .headshot {
   width: 100%;
-  max-width: 300px;
+  max-width: 250px;
   border-radius: 50%;
   height: auto;
 }
@@ -112,7 +117,7 @@ a:hover {
 }
 .stack h2 {
   text-align: center;
-  font-size: 36px;
+  font-size: 30px;
 }
 .stack ul {
   list-style-type: none;
@@ -126,6 +131,9 @@ a:hover {
 }
 .education {
   text-align: center;
+}
+.certs img {
+  border: 8px solid var(--img-frame-color);
 }
 .background h2 {
   font-size: 30px;
@@ -147,7 +155,7 @@ a:hover {
   color: var(--secondary-color);
 }
 nav ul {
-  padding: 5px 0;
+  padding: 8px 0;
   margin: 0;
 }
 nav li {
