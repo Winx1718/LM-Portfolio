@@ -68,7 +68,7 @@ nav a:hover {
 .hero {
   background: rgb(164, 93, 93, 50);
   text-align: center;
-  padding: 80px 20px;
+  padding: 100px 20px 80px 20px;
 }
 .hero p {
   color: var(--secondary-color);
