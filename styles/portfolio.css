@@ -88,9 +88,19 @@ nav a:hover {
   align-items: center;
   flex-wrap: wrap;
 }
+.featured-project a:hover {
+  border-radius: 5px;
+}
 .featured-project img {
   padding: 20px;
   background: var(--img-frame-color);
+  margin: 5px 0;
+}
+.responsiveExample {
+  width: 366px;
+  height: 373px;
+  object-fit: cover;
+  object-position: 100% 0;
 }
 .btn-branding {
   background: var(--light-color);
