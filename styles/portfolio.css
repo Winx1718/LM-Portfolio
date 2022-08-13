@@ -217,10 +217,6 @@ footer a:hover {
     text-align: center;
     padding: 0;
   }
-  .certs,
-  .contact-info {
-    flex-direction: column;
-  }
   .contact-info {
     margin: 1rem;
   }
